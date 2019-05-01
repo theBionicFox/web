@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'users.apps.UsersConfig',
     'bionic.apps.BionicConfig',
     'blog.apps.BlogConfig',
     'django.contrib.admin',
