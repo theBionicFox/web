@@ -1,0 +1,10 @@
+{% extends "bionic/base.html" %}
+{% block content %}
+  <h2>You have been logged out</h2>
+	<div class="border-top mt-2">	
+		<small class="text-muted">
+			Need back into your account? <a href="{% url 'users-login' %}"></br>Login</a>
+		</small>
+  </div>
+
+{% endblock content %}
